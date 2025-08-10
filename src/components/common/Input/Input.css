@@ -1,0 +1,27 @@
+.ui-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ui-input-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.ui-input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.ui-input--error {
+  border-color: #dc3545;
+}
+
+.ui-input-error {
+  color: #dc3545;
+  font-size: 12px;
+}
